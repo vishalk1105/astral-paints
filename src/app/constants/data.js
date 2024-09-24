@@ -2,42 +2,42 @@ const navData = [
   {
     key: 1,
     name: "About",
-    route: "/about",
+    route: "#",
   },
   {
     key: 2,
     name: "Category",
-    route: "/category",
+    route: "#",
   },
   {
     key: 3,
     name: "Services",
-    route: "/services",
+    route: "#",
   },
   {
     key: 4,
     name: "Colours",
-    route: "/colours",
+    route: "#",
   },
   {
     key: 5,
     name: "Downloads",
-    route: "/downloads",
+    route: "#",
   },
   {
     key: 6,
     name: "Become a Dealer",
-    route: "/become-a-dealer",
+    route: "#",
   },
   {
     key: 7,
     name: "Blogs",
-    route: "/blogs",
+    route: "#",
   },
   {
     key: 8,
     name: "Contact",
-    route: "/contact",
+    route: "#",
   },
 ];
 
