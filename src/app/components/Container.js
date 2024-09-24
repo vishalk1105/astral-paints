@@ -8,7 +8,7 @@ import Blog from "./Blog";
 
 const Container = ({ data }) => {
   return (
-    <div>
+    <div className="relative">
       <div className="sideBorder"></div>
       <div className="container mx-auto">
         <About data={data} />

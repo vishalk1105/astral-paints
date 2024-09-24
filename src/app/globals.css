@@ -46,6 +46,7 @@ p {
 }
 
 .sideBorder {
+  position: absolute;
   background: linear-gradient(
     180deg,
     #e70000,
@@ -53,10 +54,10 @@ p {
     #ff9119 85%,
     #00ae44
   ) !important;
-  height: 364%;
+  left: 0;
+  height: 120%;
   z-index: 10;
   width: 10px;
-  position: absolute;
 }
 
 .footer {
