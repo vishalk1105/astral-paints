@@ -9,9 +9,16 @@ const Services = ({ data }) => {
         <h2 className="text-xl text-black font-semibold mb-2">
           {data?.homeServicesSubtitle}
         </h2>
-        <h1 className="text-3xl text-black font-semibold">
-          {data?.homeServicesTitle}
-        </h1>
+        <div className="flex">
+          <h1 className="text-3xl text-black font-semibold">
+            {data?.homeServicesTitle}
+          </h1>
+          <img
+            className="ms-2"
+            src="https://astral-paints-landing.vercel.app/Images/redline.svg"
+            alt=""
+          />
+        </div>
 
         <div className="py-4">
           <div className="sm:flex sm:justify-center gap-8">

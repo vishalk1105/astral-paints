@@ -13,9 +13,17 @@ const About = ({ data }) => {
         <h2 className="text-xl text-black font-semibold mb-2">
           {data?.homeAboutSubtitle}
         </h2>
-        <h1 className="text-3xl text-black font-semibold">
-          {data?.homeAboutTitle}
-        </h1>
+        <div className="flex">
+          <h1 className="text-3xl text-black font-semibold">
+            {data?.homeAboutTitle}
+          </h1>{" "}
+          <img
+            className="ms-2"
+            src="https://astral-paints-landing.vercel.app/Images/redline.svg"
+            alt=""
+          />
+        </div>
+
         {data &&
           paragraphs?.map((para, index) => (
             <div key={index} className="mb-4">

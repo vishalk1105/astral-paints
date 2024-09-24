@@ -8,9 +8,16 @@ const Category = ({ data }) => {
       <h2 className="text-xl text-black font-semibold mb-2">
         {data?.homeCategorySubtitle}
       </h2>
-      <h1 className="text-3xl text-black font-semibold">
-        {data?.homeCategoryTitle}
-      </h1>
+      <div className="flex">
+        <h1 className="text-3xl text-black font-semibold">
+          {data?.homeCategoryTitle}
+        </h1>
+        <img
+          className="ms-2"
+          src="https://astral-paints-landing.vercel.app/Images/yellowline.svg"
+          alt=""
+        />
+      </div>
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1 relative pt-4  bg-white ">
           <img

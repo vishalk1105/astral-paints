@@ -7,7 +7,16 @@ const Blog = ({ data }) => {
       <h2 className="text-xl text-black font-semibold mb-2">
         {data?.blogSubtitle}
       </h2>
-      <h1 className="text-3xl text-black font-semibold">{data?.blogTitle}</h1>
+      <div className="flex">
+        {" "}
+        <h1 className="text-3xl text-black font-semibold">{data?.blogTitle}</h1>
+        <img
+          className="ms-2"
+          src="https://astral-paints-landing.vercel.app/Images/yellowline.svg"
+          alt=""
+        />
+      </div>
+
       <div className="flex flex-col lg:flex-row gap-4 mt-10">
         <div className="flex flex-col lg:w-1/4 gap-4">
           <div className="flex-1 relative">
