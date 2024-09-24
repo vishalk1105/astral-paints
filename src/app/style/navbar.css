@@ -1,0 +1,26 @@
+.navbar-custom {
+  background-color: #0060af;
+  width: 100%;
+}
+
+.navBtn {
+  border: 1px solid;
+  padding: 8px 15px;
+  color: #0060af !important;
+  border-radius: 20px;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+/*
+
+position: absolute;
+
+    z-index: 20;
+    display: flex;
+    rotate: 90deg;
+    right: 20px;
+    top: 50%;
+
+    */
