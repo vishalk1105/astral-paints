@@ -3,7 +3,7 @@ import NextButton from "./NextButton";
 
 const Blog = ({ data }) => {
   return (
-    <div className=" my-16 pl-4">
+    <div className=" my-16">
       <h2 className="text-xl text-black font-semibold mb-2">
         {data?.blogSubtitle}
       </h2>

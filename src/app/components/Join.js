@@ -23,8 +23,10 @@ const Join = ({ data }) => {
           />
 
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-            <h4 className="text-lg text-white">{data?.homeJoinSubtitle}</h4>
-            <h1 className="text-3xl text-white">{data?.homeJoinTitle}</h1>
+            <h4 className="text-lg text-white mb-3">
+              {data?.homeJoinSubtitle}
+            </h4>
+            <h1 className="text-3xl text-white mb-5">{data?.homeJoinTitle}</h1>
             {data &&
               paragraphs?.map((para, index) => (
                 <div key={index} className="mb-4 text-md text-white">
@@ -34,7 +36,7 @@ const Join = ({ data }) => {
             <NextButton
               btnName={data?.homeJoinButton?.title}
               btnClass={
-                "inline-block rounded-full bg-neutral-100 px-6 pb-2 pt-2.5 text-xs font-medium leading-normal text-black shadow-light-3 transition duration-150 ease-in-out"
+                "inline-block rounded-full bg-neutral-100 px-6 pb-2 pt-2.5 text-xs font-bold leading-normal text-black transition duration-150 ease-in-out"
               }
             />
           </div>
