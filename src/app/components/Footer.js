@@ -30,7 +30,7 @@ const Footer = () => {
             alt=""
           />
         </div>
-        <div className="py-8 flex gap-80 pt-20">
+        <div className="py-8 flex sm:gap-10 md:gap-20 lg:gap-40 xl:gap-80  pt-20">
           <div className="lg:w-1/3 mb-4 lg:mb-0">
             <div className="relative p-0 m-0">
               <img
